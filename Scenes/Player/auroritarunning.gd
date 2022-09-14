@@ -1,7 +1,9 @@
 extends KinematicBody2D
 
 
-onready var animation = $AnimationPlayer
+const SPEED = 100
+var motion = Vector2()
+onready var animation = $AnimationPlayer2
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
